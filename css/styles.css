@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 44, 44);
+    color: white;
+
+}
+.container{
+    width: 70%;
+    margin: 80px auto;
+    display: flex;
+    gap: 50px;
+}
+.plan{
+    background-color: rgb(55, 63, 86);
+    padding: 2em;
+    box-shadow: 250px 150px 5px 0px rgb(215, 100, 119);
+    height: 30%;
+    margin-top: 2.5em;
+}
+.active{
+    background-color: rgb(215, 100, 119);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+    outline: none;
+    color: white;
+}
+.title, .history h3{
+    margin: 1em 0;
+}
+.title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}
+.inactive{
+    background-color: rgb(55, 63, 86);
+    color: grey;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    padding: 0.5em 1.5em;
+}
+.history{
+    background-color: rgb(55, 63, 86);
+    padding: 1.5em 1em;
+    width: 40%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em 8em 0.5em 0.5em;
+    font-family: "Raleway", sans-serif;
+}
+.selected{
+    justify-content: space-around;
+    padding: 0.5em;
+    background-color: rgb(52, 44, 44);
+}
+.show{
+    padding: 1em 1.5em;
+    outline: none;
+    border: 1px solid rgb(100, 108, 131);
+    color: white;
+    background-color: rgb(55, 63, 86);
+    margin: 1.5em 0;
+}
+.red{
+    color:rgb(215, 100, 119);
+}
